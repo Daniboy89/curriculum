@@ -4,73 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Daniel Garcia</title>
-    <style>
-        body{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        main{
-            text-align: center;
-            width: 800px;
-            background-color:aquamarine;
-        }
-
-        .container{
-            display: flex;
-            gap: 10px;
-            justify-content: space-around;
-        }
-
-        /*section{
-        }*/
-
-        section p{
-            text-align: justify;
-            margin-bottom: 20px;
-        }
-
-        time{
-            font-weight: bold;
-        }
-
-        details{
-            text-align: left;
-        }
-
-        #integral{
-            height: 3rem;
-        }
-
-        .flex{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <main>
+        
         <header>
+            <img id="foto" src="./assets/foto.jpg" alt="foto de Daniel Garcia Tlapale">
             <div class="flex">
                 <img id="integral" src="./assets/integral.png" alt="simbolo de Integral">
                 <h1>Daniel Garcia Tlapale</h1>
             </div>
-        </header>
-        <section>
             <h2>Licenciado en ciencias computacionales</h2>
+        </header>
+        <hr>
+        <section>
             <div class="container">
                 <p>Apodaca, Nuevo León</p>
                 <p>2463320930</p>
-                <p>Pagina web</p>
+                <p><a href="https://daniboy89.github.io/curriculum/">daniboy89.github.io/curriculum/</a></p>
             </div>
         </section>
+        <hr>
         <section>
             <h2>Sobre mi</h2>
             <p>Soy una persona con formación en Ciencias Computacionales, gran capacidad matemática y experiencia en la enseñanza. Me caracterizo por un enfoque analítico, pensamiento lógico y una mentalidad orientada a soluciones. Tengo habilidades para el trabajo en equipo, la adaptación a distintos entornos laborales y la resolución efectiva de problemas complejos. Mi interés por aprender constantemente y compartir el conocimiento me permite aportar valor tanto en entornos educativos como técnicos.</p>
         </section>
+        <hr>
         <section>
             <h2>Experiencia Laboral</h2>
             <!--<h3>Steren <time datetime="2023">2023</time></h3>
@@ -100,11 +60,13 @@
                 </ul>
             </details>
         </section>
+        <hr>
         <section>
             <h2>Educación</h2>
             <h3>Licenciatura <time>2018 - 2024</time></h3>
             <p>Licenciatura en ciencias computacionales</p>
         </section>
+        <hr>
         <section>
             <h2>Habilidades</h2>
             <details open>
