@@ -88,3 +88,13 @@ body{
         .container>p{
             margin-bottom: 6px;
         }
+
+        @media (max-width: 768px){
+            .container{
+                flex-wrap: wrap;
+            }
+
+            main{
+                padding: 15px;
+            }
+    }
