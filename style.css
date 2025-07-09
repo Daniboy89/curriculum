@@ -91,7 +91,7 @@ body{
 
         @media (max-width: 768px){
             .container{
-                flex-wrap: wrap;
+                flex-direction: column;
             }
 
             main{
